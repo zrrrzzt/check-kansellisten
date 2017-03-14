@@ -1,0 +1,46 @@
+{
+  "name": "check-kansellisten",
+  "version": "1.0.0",
+  "description": "web frontend for MinElev",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.10.0"
+  },
+  "scripts": {
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "update": "node utils/update-kansellisten.js",
+    "repack": "node utils/repack-data.js"
+  },
+  "keywords": [
+    "Klarspråk",
+    "Kansellisten",
+    "Språkrådet",
+    "Sprakradet"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zrrrzzt/check-kansellisten.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zrrrzzt/check-kansellisten/issues"
+  },
+  "homepage": "https://github.com/zrrrzzt/check-kansellisten",
+  "devDependencies": {
+    "ava": "0.18.2",
+    "coveralls": "2.12.0",
+    "nsp": "2.6.3",
+    "nyc": "10.1.2",
+    "standard": "9.0.1",
+    "x-ray": "2.3.2"
+  }
+}
