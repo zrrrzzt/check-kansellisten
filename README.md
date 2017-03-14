@@ -1,4 +1,6 @@
 # check-kansellisten
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/zrrrzzt/check-kansellisten.svg)](https://greenkeeper.io/)
 Node module for checking text against [kansellisten](http://www.sprakradet.no/Klarsprak/skrivehjelp/Skriverad/Kutt-kansellistilen/soek-i-kansellisten/).
 
 ## Usage
