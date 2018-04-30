@@ -37,7 +37,7 @@
   "homepage": "https://github.com/zrrrzzt/check-kansellisten",
   "devDependencies": {
     "ava": "0.18.2",
-    "coveralls": "2.12.0",
+    "coveralls": "2.13.3",
     "nsp": "2.6.3",
     "nyc": "10.1.2",
     "standard": "9.0.1",
