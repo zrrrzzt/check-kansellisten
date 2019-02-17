@@ -1,7 +1,7 @@
 {
   "name": "check-kansellisten",
   "version": "1.0.0",
-  "description": "web frontend for MinElev",
+  "description": "Node module for checking text against kansellisten",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
