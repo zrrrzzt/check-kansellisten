@@ -19,7 +19,8 @@
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
     "update": "node utils/update-kansellisten.js",
-    "repack": "node utils/repack-data.js"
+    "repack": "node utils/repack-data.js",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "keywords": [
     "Klarspråk",
