@@ -7,9 +7,9 @@ Node module for checking text against [kansellisten](http://www.sprakradet.no/Kl
 Input text and get array of "forbidden" words used
 
 ```JavaScript
-const fs = require('fs')
-const textClean = fs.readFileSync('test/data/text-clean.txt', 'utf-8')
-const textDirty = fs.readFileSync('test/data/text-dirty.txt', 'utf-8')
+const { readFileSync } = require('fs')
+const textClean = readFileSync('test/data/text-clean.txt', 'utf-8')
+const textDirty = readFileSync('test/data/text-dirty.txt', 'utf-8')
 const checkKansellisten = require('check-kansellisten')
 
 console.log(checkKansellisten(textClean))
